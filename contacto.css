@@ -22,6 +22,9 @@ li{ font-size: 1.25em;}
 
 header{ 
     background: rgb(180,205,191);
+    background: linear-gradient(0deg, rgba(180,205,191,1) 0%, 
+                rgba(3,3,4,1) 100%);
+    
 }
 header .logo{
     margin: 0;
@@ -46,7 +49,7 @@ header a{
 }
 header a:hover{
     color: rgb(241, 241, 0);
-
+    transition: all 1s;
     }
 #hero{
     display: flex;
